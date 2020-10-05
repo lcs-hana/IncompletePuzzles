@@ -32,7 +32,7 @@ for _ in 1...tineLength {
     for _ in 1...3 {
         
         // Print part of a tine
-        print("*", terminator: "")
+        print(" * ", terminator: "")
         
         // Print space between tines
         for _ in 1...spacing {
