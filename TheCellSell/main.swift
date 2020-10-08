@@ -38,6 +38,9 @@ a += (day - 100) * 25
 // Add evening cost
 a += evening * 15
 
+// Add weeekend cost
+a += weekend * 20
+
 // Calculate cost for plan B
 var b = 0
 
@@ -47,6 +50,8 @@ b += (day - 250) * 45
 // Add evening cost
 b += evening * 35
 
+// Add weeekend cost
+b += weekend * 25
 
 // OUTPUT
 print("Plan A costs \(a)")
@@ -57,3 +62,4 @@ if a > b {
 } else {
     print("Plan A is cheapest.")
 }
+//Therefore plan A is chaeper than plan B
