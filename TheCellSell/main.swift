@@ -23,6 +23,10 @@ let day = Int(readLine()!)!
 print("Number of evening minutes?")
 let evening = Int(readLine()!)!
 
+// Get weekend minutes
+print("Number of weekend minutes?")
+let weekend = Int(readLine()!)!
+
 // PROCESS
 
 // Calculate cost for plan A
